@@ -96,3 +96,4 @@ history = model.fit(train_data, validation_data=val_data, epochs=EPOCHS)
 # ✅ Save Model (No Download Step in Codespaces)
 model.save("crop_disease_model.h5")
 print("✅ Model saved as crop_disease_model.h5")
+
